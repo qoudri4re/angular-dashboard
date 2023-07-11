@@ -45,10 +45,14 @@
         ></div>
       </div>
     </div>
-    <div class="hamburger">
+    <div
+      [class]="
+        'hamburger ' + (inLightMode ? 'hamburger__light' : 'hamburger__dark')
+      "
+    >
       <img
         (click)="toogleMobileSidebar()"
-        src="/assets/menu.png"
+        [src]="inLightMode ? '/assets/menu-dark.png' : '/assets/menu-white.png'"
         alt=""
         srcset=""
       />

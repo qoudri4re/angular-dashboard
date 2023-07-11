@@ -488,10 +488,17 @@ body {
   .followers .item {
     margin: 0 auto;
   }
+  .social-details .post-engagements .item-post {
+    margin: 0 auto;
+  }
+
   .social-details {
     top: 4%;
   }
-  .social-details-light .followers .item {
+  .middle- {
+    margin-left: 20px;
+  }
+  .social-details .followers .item {
     display: flex;
     justify-content: center;
     align-items: center;
